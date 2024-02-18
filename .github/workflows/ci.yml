@@ -17,8 +17,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install 'molecule[docker]'
-        pip install docker
+        pip3 install 'molecule[docker]'
+        pip3 install docker
 
     - name: Test with Molecule
       run: molecule test
